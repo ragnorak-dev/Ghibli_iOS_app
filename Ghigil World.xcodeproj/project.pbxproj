@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2BB62828773326005F6576 /* ViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BB62728773326005F6576 /* ViewStatus.swift */; };
+		1E2BB63028773BCA005F6576 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2BB62F28773BCA005F6576 /* Alamofire */; };
+		1EAC96F6286F33F600581732 /* Ghigil_WorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC96F5286F33F600581732 /* Ghigil_WorldApp.swift */; };
+		1EAC96FA286F33F700581732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAC96F9286F33F700581732 /* Assets.xcassets */; };
+		1EAC96FD286F33F700581732 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAC96FC286F33F700581732 /* Preview Assets.xcassets */; };
+		1EAC9707286F33F800581732 /* Ghigil_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9706286F33F800581732 /* Ghigil_WorldTests.swift */; };
+		1EAC9711286F33F800581732 /* Ghigil_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9710286F33F800581732 /* Ghigil_WorldUITests.swift */; };
+		1EAC9713286F33F800581732 /* Ghigil_WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9712286F33F800581732 /* Ghigil_WorldUITestsLaunchTests.swift */; };
+		1EAC9721286F361E00581732 /* FilmListCloudDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9720286F361E00581732 /* FilmListCloudDataSource.swift */; };
+		1EAC9723286F3B3C00581732 /* ApiConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9722286F3B3C00581732 /* ApiConstans.swift */; };
+		1EAC9726286F3C6F00581732 /* ServerFilmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9725286F3C6F00581732 /* ServerFilmResponse.swift */; };
+		1EAC9729286F49D800581732 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC9728286F49D800581732 /* ApiManager.swift */; };
+		1EAC972C286F4B5800581732 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC972B286F4B5800581732 /* HttpError.swift */; };
+		1EAC97382874831900581732 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC97372874831900581732 /* FilmModel.swift */; };
+		1EAC973B2874837D00581732 /* MapperFilmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC973A2874837D00581732 /* MapperFilmEntity.swift */; };
+		1EAC973F2874876700581732 /* FilmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC973E2874876700581732 /* FilmListView.swift */; };
+		1EAC97412874879500581732 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC97402874879500581732 /* FilmListViewModel.swift */; };
+		9DBE8B5A2AFEAEA800841649 /* GetFilmsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC97342874817800581732 /* GetFilmsUseCase.swift */; };
+		9DBE8B5C2AFEB04200841649 /* FilmsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE8B5B2AFEB04200841649 /* FilmsRepository.swift */; };
+		9DBE8B5E2AFEB0E700841649 /* FilmsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE8B5D2AFEB0E700841649 /* FilmsRepositoryImpl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EAC9703286F33F800581732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAC96EA286F33F600581732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAC96F1286F33F600581732;
+			remoteInfo = "Ghigil World";
+		};
+		1EAC970D286F33F800581732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAC96EA286F33F600581732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAC96F1286F33F600581732;
+			remoteInfo = "Ghigil World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2BB62728773326005F6576 /* ViewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatus.swift; sourceTree = "<group>"; };
+		1EAC96F2286F33F600581732 /* Ghigil World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghigil World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAC96F5286F33F600581732 /* Ghigil_WorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghigil_WorldApp.swift; sourceTree = "<group>"; };
+		1EAC96F9286F33F700581732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EAC96FC286F33F700581732 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EAC9702286F33F800581732 /* Ghigil WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghigil WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAC9706286F33F800581732 /* Ghigil_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghigil_WorldTests.swift; sourceTree = "<group>"; };
+		1EAC970C286F33F800581732 /* Ghigil WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghigil WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAC9710286F33F800581732 /* Ghigil_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghigil_WorldUITests.swift; sourceTree = "<group>"; };
+		1EAC9712286F33F800581732 /* Ghigil_WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghigil_WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EAC9720286F361E00581732 /* FilmListCloudDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListCloudDataSource.swift; sourceTree = "<group>"; };
+		1EAC9722286F3B3C00581732 /* ApiConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstans.swift; sourceTree = "<group>"; };
+		1EAC9725286F3C6F00581732 /* ServerFilmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerFilmResponse.swift; sourceTree = "<group>"; };
+		1EAC9728286F49D800581732 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		1EAC972B286F4B5800581732 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		1EAC97342874817800581732 /* GetFilmsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFilmsUseCase.swift; sourceTree = "<group>"; };
+		1EAC97372874831900581732 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		1EAC973A2874837D00581732 /* MapperFilmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperFilmEntity.swift; sourceTree = "<group>"; };
+		1EAC973E2874876700581732 /* FilmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListView.swift; sourceTree = "<group>"; };
+		1EAC97402874879500581732 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		9DBE8B5B2AFEB04200841649 /* FilmsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsRepository.swift; sourceTree = "<group>"; };
+		9DBE8B5D2AFEB0E700841649 /* FilmsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsRepositoryImpl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAC96EF286F33F600581732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2BB63028773BCA005F6576 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC96FF286F33F800581732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC9709286F33F800581732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2BB6242875E5B0005F6576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E2BB62928773A4D005F6576 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC973C2874873400581732 /* View */,
+				1EAC97332874814D00581732 /* Domain */,
+				1EAC972E28747E9600581732 /* Data */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		1EAC96E9286F33F600581732 = {
+			isa = PBXGroup;
+			children = (
+				1EAC96F4286F33F600581732 /* Ghigil World */,
+				1EAC9705286F33F800581732 /* Ghigil WorldTests */,
+				1EAC970F286F33F800581732 /* Ghigil WorldUITests */,
+				1EAC96F3286F33F600581732 /* Products */,
+				1E2BB6242875E5B0005F6576 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAC96F3286F33F600581732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC96F2286F33F600581732 /* Ghigil World.app */,
+				1EAC9702286F33F800581732 /* Ghigil WorldTests.xctest */,
+				1EAC970C286F33F800581732 /* Ghigil WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAC96F4286F33F600581732 /* Ghigil World */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC9727286F49B700581732 /* Network */,
+				1E2BB62928773A4D005F6576 /* Films */,
+				1EAC96F5286F33F600581732 /* Ghigil_WorldApp.swift */,
+				1EAC96F9286F33F700581732 /* Assets.xcassets */,
+				1EAC96FB286F33F700581732 /* Preview Content */,
+			);
+			path = "Ghigil World";
+			sourceTree = "<group>";
+		};
+		1EAC96FB286F33F700581732 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC96FC286F33F700581732 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EAC9705286F33F800581732 /* Ghigil WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC9706286F33F800581732 /* Ghigil_WorldTests.swift */,
+			);
+			path = "Ghigil WorldTests";
+			sourceTree = "<group>";
+		};
+		1EAC970F286F33F800581732 /* Ghigil WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC9710286F33F800581732 /* Ghigil_WorldUITests.swift */,
+				1EAC9712286F33F800581732 /* Ghigil_WorldUITestsLaunchTests.swift */,
+			);
+			path = "Ghigil WorldUITests";
+			sourceTree = "<group>";
+		};
+		1EAC971F286F354900581732 /* dataSources */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC9724286F3C5000581732 /* responses */,
+				1EAC9720286F361E00581732 /* FilmListCloudDataSource.swift */,
+				1EAC9722286F3B3C00581732 /* ApiConstans.swift */,
+			);
+			path = dataSources;
+			sourceTree = "<group>";
+		};
+		1EAC9724286F3C5000581732 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC9725286F3C6F00581732 /* ServerFilmResponse.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		1EAC9727286F49B700581732 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC972A286F4AE400581732 /* Errors */,
+				1EAC9728286F49D800581732 /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1EAC972A286F4AE400581732 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC972B286F4B5800581732 /* HttpError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		1EAC972D28747E8200581732 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9DBE8B5B2AFEB04200841649 /* FilmsRepository.swift */,
+				9DBE8B5D2AFEB0E700841649 /* FilmsRepositoryImpl.swift */,
+			);
+			name = repositories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1EAC972E28747E9600581732 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC972D28747E8200581732 /* repositories */,
+				1EAC971F286F354900581732 /* dataSources */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1EAC97332874814D00581732 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC97362874830A00581732 /* models */,
+				1EAC97342874817800581732 /* GetFilmsUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1EAC97362874830A00581732 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC97392874835800581732 /* mappers */,
+				1EAC97372874831900581732 /* FilmModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1EAC97392874835800581732 /* mappers */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC973A2874837D00581732 /* MapperFilmEntity.swift */,
+			);
+			path = mappers;
+			sourceTree = "<group>";
+		};
+		1EAC973C2874873400581732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC973E2874876700581732 /* FilmListView.swift */,
+				1EAC97402874879500581732 /* FilmListViewModel.swift */,
+				1E2BB62728773326005F6576 /* ViewStatus.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAC96F1286F33F600581732 /* Ghigil World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAC9716286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil World" */;
+			buildPhases = (
+				1EAC96EE286F33F600581732 /* Sources */,
+				1EAC96EF286F33F600581732 /* Frameworks */,
+				1EAC96F0286F33F600581732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghigil World";
+			packageProductDependencies = (
+				1E2BB62F28773BCA005F6576 /* Alamofire */,
+			);
+			productName = "Ghigil World";
+			productReference = 1EAC96F2286F33F600581732 /* Ghigil World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EAC9701286F33F800581732 /* Ghigil WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAC9719286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil WorldTests" */;
+			buildPhases = (
+				1EAC96FE286F33F800581732 /* Sources */,
+				1EAC96FF286F33F800581732 /* Frameworks */,
+				1EAC9700286F33F800581732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EAC9704286F33F800581732 /* PBXTargetDependency */,
+			);
+			name = "Ghigil WorldTests";
+			productName = "Ghigil WorldTests";
+			productReference = 1EAC9702286F33F800581732 /* Ghigil WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EAC970B286F33F800581732 /* Ghigil WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAC971C286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil WorldUITests" */;
+			buildPhases = (
+				1EAC9708286F33F800581732 /* Sources */,
+				1EAC9709286F33F800581732 /* Frameworks */,
+				1EAC970A286F33F800581732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EAC970E286F33F800581732 /* PBXTargetDependency */,
+			);
+			name = "Ghigil WorldUITests";
+			productName = "Ghigil WorldUITests";
+			productReference = 1EAC970C286F33F800581732 /* Ghigil WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAC96EA286F33F600581732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1EAC96F1286F33F600581732 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1EAC9701286F33F800581732 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1EAC96F1286F33F600581732;
+					};
+					1EAC970B286F33F800581732 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1EAC96F1286F33F600581732;
+					};
+				};
+			};
+			buildConfigurationList = 1EAC96ED286F33F600581732 /* Build configuration list for PBXProject "Ghigil World" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EAC96E9286F33F600581732;
+			packageReferences = (
+				1E2BB62E28773BCA005F6576 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 1EAC96F3286F33F600581732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAC96F1286F33F600581732 /* Ghigil World */,
+				1EAC9701286F33F800581732 /* Ghigil WorldTests */,
+				1EAC970B286F33F800581732 /* Ghigil WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAC96F0286F33F600581732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAC96FD286F33F700581732 /* Preview Assets.xcassets in Resources */,
+				1EAC96FA286F33F700581732 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC9700286F33F800581732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC970A286F33F800581732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAC96EE286F33F600581732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAC97412874879500581732 /* FilmListViewModel.swift in Sources */,
+				1EAC972C286F4B5800581732 /* HttpError.swift in Sources */,
+				1EAC973F2874876700581732 /* FilmListView.swift in Sources */,
+				1EAC96F6286F33F600581732 /* Ghigil_WorldApp.swift in Sources */,
+				1EAC9726286F3C6F00581732 /* ServerFilmResponse.swift in Sources */,
+				1EAC9721286F361E00581732 /* FilmListCloudDataSource.swift in Sources */,
+				1EAC973B2874837D00581732 /* MapperFilmEntity.swift in Sources */,
+				9DBE8B5E2AFEB0E700841649 /* FilmsRepositoryImpl.swift in Sources */,
+				9DBE8B5C2AFEB04200841649 /* FilmsRepository.swift in Sources */,
+				1EAC9729286F49D800581732 /* ApiManager.swift in Sources */,
+				9DBE8B5A2AFEAEA800841649 /* GetFilmsUseCase.swift in Sources */,
+				1E2BB62828773326005F6576 /* ViewStatus.swift in Sources */,
+				1EAC97382874831900581732 /* FilmModel.swift in Sources */,
+				1EAC9723286F3B3C00581732 /* ApiConstans.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC96FE286F33F800581732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAC9707286F33F800581732 /* Ghigil_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC9708286F33F800581732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAC9711286F33F800581732 /* Ghigil_WorldUITests.swift in Sources */,
+				1EAC9713286F33F800581732 /* Ghigil_WorldUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EAC9704286F33F800581732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EAC96F1286F33F600581732 /* Ghigil World */;
+			targetProxy = 1EAC9703286F33F800581732 /* PBXContainerItemProxy */;
+		};
+		1EAC970E286F33F800581732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EAC96F1286F33F600581732 /* Ghigil World */;
+			targetProxy = 1EAC970D286F33F800581732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EAC9714286F33F800581732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EAC9715286F33F800581732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAC9717286F33F800581732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ghigil World/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EAC9718286F33F800581732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ghigil World/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EAC971A286F33F800581732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghigil World.app/Ghigil World";
+			};
+			name = Debug;
+		};
+		1EAC971B286F33F800581732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghigil World.app/Ghigil World";
+			};
+			name = Release;
+		};
+		1EAC971D286F33F800581732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ghigil World";
+			};
+			name = Debug;
+		};
+		1EAC971E286F33F800581732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "raSoft.Ghigil-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ghigil World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAC96ED286F33F600581732 /* Build configuration list for PBXProject "Ghigil World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAC9714286F33F800581732 /* Debug */,
+				1EAC9715286F33F800581732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAC9716286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAC9717286F33F800581732 /* Debug */,
+				1EAC9718286F33F800581732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAC9719286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAC971A286F33F800581732 /* Debug */,
+				1EAC971B286F33F800581732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAC971C286F33F800581732 /* Build configuration list for PBXNativeTarget "Ghigil WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAC971D286F33F800581732 /* Debug */,
+				1EAC971E286F33F800581732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E2BB62E28773BCA005F6576 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E2BB62F28773BCA005F6576 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E2BB62E28773BCA005F6576 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1EAC96EA286F33F600581732 /* Project object */;
+}
